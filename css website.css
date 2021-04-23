@@ -1,0 +1,21 @@
+h1 {
+  font-family: "Monaco", monospace, sans-serif;
+  text-align: center;
+  color: rgb(76, 250, 233);
+}
+h1 {
+  font-size: 80px;
+}
+p {
+	text-align: center;
+	font-family: "Monaco", monospace, sans-serif;
+}
+h2 {
+	text-align: center;
+	font-family: "Monaco", monospace, sans-serif;
+	font-size: 20px;
+}
+a {
+	font-family: "Monaco", monospace, sans-serif;
+	font-size: 20px;
+}
