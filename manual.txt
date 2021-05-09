@@ -1,0 +1,95 @@
+The goal of Investor+ is to make as much money as possible in as little time as possible. You do this by strategically buying and selling stocks at the correct moments to increase your monetary wealth.
+
+In this manual, I will cover every screen in the game and what you can do on that screen.
+
+------------------------KEY ACTIVATION SCREEN-------------------
+
+This screen is quite simple, it asks for your key and allows you to submit it.
+Note that each key may only be used once, but can be reactivated by logging out. More details below in the Loading Screen section of the manual.
+
+--------------------------LOADING SCREEN------------------------
+
+Starting on the loading screen, you are faced with five buttons and a text entry.
+
+
+The text entry is what you use to choose your starting date in DD/MM/YYYY format. You cannot start before 1928. If you enter an invalid date, it will not start and tell you. If you have loaded a save file, this entry will not matter.
+
+
+The first button on the loading screen is the 'Select Save File' button. If you have previously created a save file, you can see and load them here. Once you have selected 'Load This Save' on the save you choose, the 'Start Playing' button on the home screen changes to 'Resume From Save', and upon starting the game you will find everything was the way you left it. The 'Delete This Save' button does what you think, and deletes the save. Note that sometimes a save called .DS_S or ._.DS_S will appear. If it does and you didn't create that save, you can delete it without worrying.
+
+The second button on the loading screen is the 'Settings' button, this will take you to the settings page. You are faced with four options:
+
+Animation Quality - This controls how many buttons on the main game have animations. Lower-end computers may want to leave this on Low or None.
+
+Update Graph When Hovering on Stock - When on the purchase page, if you hover over a stock's details, the graph will automatically update to the history of that stock if this option is enabled. Consider disabling for performance increase.
+
+Short Selling - If this option is on, you are allowed to sell stock you don't own, on the condition that you buy it back later. While you have negative amounts of a stock, you have to pay monthly fees. If you don't have enough money to pay the fees, it will automatically sell your stock to pay them. Note that in order to sell a stock, you have to have enough capital to buy the stock and pay off all of the current short-sold stock BEFORE you get the money from selling it.
+
+After Changing Date, Update Graph... - Waiting for the graph to load after going forward in time can massively slow the program down, depending on the size of the graph. This setting can add a small delay to loading the graph to allow people to go forward large amounts at once. On low-medium computers, we highly recommend leaving this on a delay.
+
+
+The third button on the loading screen is the 'Start Playing' button. This will start the game at the chosen date, and if you have selected a save file, it will instead load that.
+
+
+The fourth button on the loading screen is the 'Online Features' button. This screen has two actions:
+
+Check Game Version - This action will check with the server if the game is running the same version as the most up to date version. If the game is out of date, you can download the newest version from investorplus.me; Note that your saves will not carry over to the next game automatically.
+
+Update Game Data - This action will update your game data to work until the current day. This may take a few seconds, don't leave the page until it is finished downloading.
+
+
+The fifth button on the loading screen is the 'Logout and Reactivate CD Key' button. This logs you out of the current game file and require you to re-enter the key if you want to play the game. However, this will activate your key and allow you to use it on another computer (or the same computer, if you want to).
+
+------------------------------GAME HOME PAGE------------------------
+
+In the top-left of the home page are two banners. If your animation quality is medium or high, they will be compressed by default, shooting out when you hover over them. Otherwise, they will always be extended. The top banner shows your current net worth, while the lower banner only shows your current cash.
+
+
+To the right of those banners is a blue window with some text inside, the text shows the current date in the format DD/MM/YYYY.
+
+
+To the right of the date window is text saying 'On Graph, Show:' and beneath it is a Drop-Down menu that changes what is shown on the graph below it.
+Last 7, 31, and 365 Days will show the history of the currently selected stock in their respective time-frames.
+Net Worth History will show your net worth history for your currently selected save. Note that this can take a while to load.
+
+
+To the right of the graph selectors are two buttons labeled 'Save' and 'Save And Exit'. Save will save your game in the files, and the file will be shown when you select 'Load Save File' in the loading screen. Save and Exit will do the same thing, but exit your game  afterwards.
+
+
+To the right of the save buttons are two buttons labeled 'Purchase Stock' and 'View Your Stock'. Pressing Purchase Stock will take you to the purchase page, and view your stock will take you to the inventory page.
+
+
+On the middle-left are history facts. Note that these are not always visible. When valid, they show up and tell the user about things that happened during that time period.
+
+
+On the middle-right is a graph that shows the history of something, chosen by the graph selector.
+
+
+On the bottom-left of the screen is a white box, that will display feedback and messages to the user. Remember to check here often as it can be quite helpful.
+
+
+On the bottom-right of the screen are four buttons that move you forward in time. Next Day, Week, Month, and Year all move forward the amount they say they will, allowing you to purchase the stocks available on that day.
+
+
+------------------------GAME PURCHASE PAGE------------------------
+
+
+On this page are most of the things seen on the Game Home Page, but there are some differences. In the bottom-right, instead of time buttons, are purchase buttons and a 'Next Day' button. The Next Day button does the same thing as the next day button on the home page, but is in a different place.
+To Purchase things there are four buttons and a text entry:
+
+The 'Buy 1' button buys 1 of the currently selected stock, and the 'Buy 100' button buys 100 of the currently selected stock. While you have selected to sell stock instead of buying it, these buttons will turn into 'Sell 1' and 'Sell 100', which respectively sell 1 and 100 shares.
+
+The 'Buy All' button buys as many shares as you can with your current cash. While you have selected to sell stock instead of buying it, this button will turn into 'Sell All', which  sells all of your currently owned stock of the selected company.
+
+The 'Buy Custom Amount' button purchases the number written in the text entry of the current selected stock.
+
+
+On the left is a list of currently available stock. If there are none visible, press the Next Day button and some will appear. If you have the 'Update Graph When Hovering On Stock' setting turned on, hovering over the blue box will update the graph to the stock. Regardless of that setting, the box is divided into three sections. The top section shows the name of the stock, the bottom-left shows the buy price of the stock, and the bottom-right shows the sell price of the stock.
+
+To the right of every stock box is a drop-down menu that can change the selected stock. Upon selecting an option in the menu, all of the other menus will reset to 'Buy/Sell...'.
+
+
+-----------------------------GAME INVENTORY PAGE----------------------
+
+
+There is nothing fancy on this page, just a display for every stock you own. The top of the display shows the stock's name, the left shows the amount you own, and the right shows the total value of all your shares in that stock.
